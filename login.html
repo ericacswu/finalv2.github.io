@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500,700,900&display=swap&subset=chinese-traditional" rel="stylesheet">
+    <title>Welcome to Racketer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 left-side">
+          <img src="image/login.jpg" class="mini img-fluid">    
+          <h3>JOIN OUR CLUB</h3>
+          <p>Contact us with social media</p>
+          <a class="fb" href="https://www.facebook.com/Joshua-%E8%BF%B7%E4%BD%A0%E7%B6%B2%E7%90%83%E5%A4%A7%E6%9C%AC%E7%87%9F-100244188131221/">Facebook</a>        
+          <a class="ig" href="https://www.instagram.com/joshuaminitennis/">Instagram</a><br>
+        </div>
+        <!--right-side-->
+        <div class="col-sm-6 right-side">
+          <h1>LOGIN</h1>
+          <div class="form">
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input class="form-control" type="email" placeholder="E-mail" id="email_field">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="form4" class="form-control" placeholder="Password" type="password" id="password_field">
+            </div>
+            <a href="#" class="forgot-pw">Forgot Password?</a>
+            
+            <button onclick="login()" class="btn btn-info btn-lg btn-block" data-toggle="button" aria-pressed="false" autocomplete="off" type="submit" value="submit" id="button-login btnSignIn">Login</button>
+
+            <p class="sign_up">
+              Don't have an account? <a href="signUp.html" id="btnSignUp">Sign Up</a>
+            </p>
+          </div>
+        </div>
+        <!--right-side-end-->
+      </div>     
+    </div><!--container-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/system.js"></script>
+  </body>
+</html>
